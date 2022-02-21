@@ -48,6 +48,12 @@ p {
 
 @keyframes dash {
   50% {
-    opacity: 0;
+    color: #f2eee2;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .bg-hero {
+    display: none;
   }
 }
