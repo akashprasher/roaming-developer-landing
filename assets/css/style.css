@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+/* #D73F42 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2eee2;
+}
+
+.main-div {
+  height: 100vh;
+}
+
+.bg-hero {
+  height: 100vh;
+  background-image: url("../images/bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h1,
+h2,
+a {
+  cursor: pointer;
+  color: #d73f42;
+}
+
+a:hover,
+p {
+  cursor: pointer;
+  color: #263238;
+}
+
+#dot {
+  animation: dash 1s infinite;
+}
+
+@keyframes dash {
+  50% {
+    opacity: 0;
+  }
+}
